@@ -41,7 +41,7 @@ client.on('ready',()=>{
 					{
 						console.log(x/c);
 						console.log(sz);
-						generalChannel.send(" :pampeet: " + " BitMEX XBTUSD **"+ sz +"** contracts market sold at **" + x/c + "**")
+						generalChannel.send(" :dampeet: " + " BitMEX XBTUSD **"+ sz +"** contracts market sold at **" + x/c + "**")
 						
 					}
 				});
