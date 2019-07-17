@@ -30,7 +30,7 @@ client.on('ready',()=>{
 					var c=0;
 					for(i=0;i<dArr.length;i++)
 					{
-						if(dArr[i]['side']=='Sell' && (dArr[i]['price']>=10000))
+						if(dArr[i]['side']=='Sell')
 						{
 							x+=dArr[i]['price']
 							sz+=dArr[i]['size']
