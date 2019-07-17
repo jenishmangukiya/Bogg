@@ -54,9 +54,9 @@ client.on('ready',()=>{
 });
 
 client.on('message',msg=>{
-	/*if(msg.content === "Hello"){
+	if(msg.content === "Hello"){
 		msg.reply("Hello0000000!")
-	}*/
+	}
 });
 
 client.login(process.env.BOT_TOKEN)
